@@ -32,7 +32,7 @@ export function MainNav() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-white/5 backdrop-blur-2xl supports-[backdrop-filter]:bg-white/5 shadow-lg shadow-black/5">
-      <div className="container flex h-20 items-center justify-between px-6">
+      <div className="container mx-auto flex h-20 items-center justify-between px-6">
         <Link href="/" className="flex items-center space-x-4 group">
           <div className="h-12 w-12 rounded-2xl bg-gradient-to-br from-emerald-500 via-blue-500 to-purple-500 flex items-center justify-center shadow-2xl group-hover:shadow-emerald-500/25 transition-all duration-500 group-hover:scale-110 backdrop-blur-sm border border-white/20">
             <span className="text-white font-bold text-xl">ST</span>

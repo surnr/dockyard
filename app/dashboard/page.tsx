@@ -35,7 +35,7 @@ export default function DashboardPage() {
     <div className="min-h-screen bg-background">
       <MainNav />
 
-      <div className="container py-8">
+      <div className="container mx-auto px-4 py-8">
         {/* Header */}
         <div className="flex justify-between items-start mb-8">
           <div>

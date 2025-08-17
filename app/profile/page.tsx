@@ -65,7 +65,7 @@ export default function ProfilePage() {
     <div className="min-h-screen bg-background">
       <MainNav />
 
-      <div className="container py-8 space-y-8">
+      <div className="container mx-auto px-4 py-8 space-y-8">
         <ProfileHeader user={user} onEditProfile={handleEditProfile} />
 
         <Tabs defaultValue="overview" className="space-y-6">

@@ -58,7 +58,7 @@ export default function HomePage() {
       <MainNav />
 
       <section className="relative min-h-screen flex items-center justify-center">
-        <div className="container relative z-10">
+        <div className="container mx-auto px-4 relative z-10">
           <div className="flex flex-col items-center text-center space-y-12 max-w-4xl mx-auto">
             <div className="space-y-8">
               <h1 className="text-6xl md:text-8xl font-black tracking-tight text-white leading-tight">
@@ -133,7 +133,7 @@ export default function HomePage() {
       </section>
 
       <section className="bg-white py-20">
-        <div className="container">
+        <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center mb-8">
               <img
@@ -155,7 +155,7 @@ export default function HomePage() {
       </section>
 
       <section className="bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 py-20">
-        <div className="container">
+        <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Tamil Nadu Startup Ecosystem</h2>
             <p className="text-white/90 text-xl">Leading India's entrepreneurial revolution</p>
@@ -179,7 +179,7 @@ export default function HomePage() {
       </section>
 
       <section className="bg-white py-24">
-        <div className="container">
+        <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Services <span className="text-pink-500">We Offer</span>
@@ -244,7 +244,7 @@ export default function HomePage() {
 
       <section className="bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 py-24 relative">
         <div className="absolute inset-0 bg-[radial-gradient(white,rgba(255,255,255,.1)_1px,transparent_1px)] [background-size:50px_50px] opacity-10"></div>
-        <div className="container relative z-10">
+        <div className="container mx-auto px-4 relative z-10">
           <Card className="bg-white/10 backdrop-blur-lg border-white/20 text-white border-0 shadow-2xl">
             <CardContent className="p-16 text-center">
               <div className="inline-flex items-center justify-center w-20 h-20 bg-white/20 rounded-full mb-8">

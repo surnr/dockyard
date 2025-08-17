@@ -24,17 +24,18 @@ This is a Next.js 15 application built for the StartupTN Ecosystem Platform. It'
 
 ### Project Structure
 - `app/` - Next.js App Router pages and API routes
-  - `/api/ai-tutor/` - AI tutor backend functionality
   - `/dashboard/` - Main analytics dashboard
-  - `/questions/` - Question bank and learning content
   - `/projects/` - Project management features
   - `/events/` - Event management system
   - `/chat/` - AI chat interface
+  - `/search/` - Search functionality
+  - `/profile/` - User profiles
+  - `/support/` - Support ticket system
 - `components/` - React components organized by feature
   - `/ui/` - shadcn/ui base components
   - `/dashboard/` - Dashboard-specific components
-  - `/ai-tutor/` - AI tutor interface components
   - `/analytics/` - Data visualization components
+  - `/navigation/` - Navigation components
 - `lib/` - Utility functions and mock data
 - `hooks/` - Custom React hooks
 
@@ -73,7 +74,6 @@ This is a Next.js 15 application built for the StartupTN Ecosystem Platform. It'
 - Use `npm run lint` to check code quality
 
 ### AI Features
-- AI tutor functionality in `/ai-tutor/` route
-- Chat interface with AI SDK integration
-- Question recommendation system
+- Chat interface with AI SDK integration via `/chat/[id]` routes
+- AI-powered search functionality
 - Performance insights and analytics

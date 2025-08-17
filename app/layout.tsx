@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={dmSans.variable}>
-      <body className="font-sans antialiased self-center">{children}</body>
+      <body className="font-sans antialiased">{children}</body>
     </html>
   );
 }
